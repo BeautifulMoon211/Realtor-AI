@@ -21,7 +21,7 @@ Welcome to the AI Agent for Real Estate Professionals. This application is desig
 
 ### Application Workflow
 
-![AI agents graph](backend/graph.png)
+![AI agents graph](backend/workflow.png)
 
 1. **Initialization**: Starts at the `__start__` node.
 2. **Main Interaction Hub**: The `main_agent` directs users to specific functionalities.
@@ -42,7 +42,7 @@ Welcome to the AI Agent for Real Estate Professionals. This application is desig
    - Add the necessary environment variables.
 
 3. **Download and set up data**  
-   - Download the real estate dataset from [Kaggle](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset) and place it in the `/data` folder.
+   - Scrape the dataset from real estate websites such as Realtor, Tophap, [Readfin](https://github.com/BeautifulMoon211/Redfin-Scraping), [OnTheMarket](https://github.com/BeautifulMoon211/Onthemarket-Scraping) and place it in the `/data` folder.
    - Run `csv_to_sql.py` to convert the CSV file into an SQL database.
 
 4. **Run the main application**  
